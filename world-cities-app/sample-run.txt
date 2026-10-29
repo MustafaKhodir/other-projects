@@ -1,0 +1,43 @@
+Please enter:
+1 to print 10 largest cities
+2 to print 10 smallest cities
+3 to enter a country and print cities from this country
+4 to enter a latitude and longitude and print 10 closest cities
+
+Tokyo located at 35.6897 latitude 139.6922 longitude in Japan with a population of 37977000
+Jakarta located at -6.2146 latitude 106.8451 longitude in Indonesia with a population of 34540000
+Delhi located at 28.66 latitude 77.23 longitude in India with a population of 29617000
+Mumbai located at 18.9667 latitude 72.8333 longitude in India with a population of 23355000
+Manila located at 14.6 latitude 120.9833 longitude in Philippines with a population of 23088000
+Shanghai located at 31.1667 latitude 121.4667 longitude in China with a population of 22120000
+São Paulo located at -23.5504 latitude -46.6339 longitude in Brazil with a population of 22046000
+Seoul located at 37.56 latitude 126.99 longitude in Korea, South with a population of 21794000
+Mexico City located at 19.4333 latitude -99.1333 longitude in Mexico with a population of 20996000
+Guangzhou located at 23.1288 latitude 113.259 longitude in China with a population of 20902000
+
+1 to print 10 largest cities
+2 to print 10 smallest cities
+3 to enter a country and print cities from this country
+4 to enter a latitude and longitude and print 10 closest cities
+
+Enter latitude:
+
+Enter longitude:
+
+Bristol located at 51.45 latitude -2.5833 longitude in United Kingdom with a population of 724000
+Newport located at 51.5833 latitude -3.0 longitude in United Kingdom with a population of 128060
+Caerdydd located at 51.4833 latitude -3.1833 longitude in United Kingdom with a population of 479000
+Swindon located at 51.56 latitude -1.78 longitude in United Kingdom with a population of 192599
+Poole located at 50.7167 latitude -1.9833 longitude in United Kingdom with a population of 151500
+Bournemouth located at 50.72 latitude -1.88 longitude in United Kingdom with a population of 183491
+Abertawe located at 51.6167 latitude -3.95 longitude in United Kingdom with a population of 245508
+Oxford located at 51.7519 latitude -1.2578 longitude in United Kingdom with a population of 154600
+Southampton located at 50.9 latitude -1.4 longitude in United Kingdom with a population of 855569
+Reading located at 51.4542 latitude -0.9731 longitude in United Kingdom with a population of 337108
+
+1 to print 10 largest cities
+2 to print 10 smallest cities
+3 to enter a country and print cities from this country
+4 to enter a latitude and longitude and print 10 closest cities
+
+Goodbye!
