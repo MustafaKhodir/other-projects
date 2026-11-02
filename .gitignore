@@ -1,0 +1,40 @@
+# macOS and Windows clutter
+.DS_Store
+Thumbs.db
+
+# Microsoft Office lock files
+~$*
+
+# Java build output and IDE files
+*.class
+out/
+.idea/
+*.iml
+
+# C build output
+*.o
+*.out
+*.dSYM/
+a.out
+
+# Python
+__pycache__/
+*.pyc
+
+# MATLAB
+*.asv
+*.mex*
+
+# Files the programs write when they run
+letter-2d-java/test.txt
+
+# Videos stay out of the repo
+*.mov
+*.MOV
+*.mp4
+# except the short demo recordings
+!media/demo/*.mp4
+
+# Editor settings
+.vscode/
+originals/

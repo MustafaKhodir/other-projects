@@ -1,0 +1,90 @@
+
+. . . . . 
+. . . . . 
+. . . . . 
+. . . . . 
+. . . . . 
+Who makes the first move? (1) AI (2) You: 
+Your move, row then column (1 to 5): 
+
+. . . . . 
+. . . . . 
+. . O . . 
+. . . . . 
+. . . . . 
+
+X . . . . 
+. . . . . 
+. . O . . 
+. . . . . 
+. . . . . 
+Your move, row then column (1 to 5): 
+
+X . . . . 
+. O . . . 
+. . O . . 
+. . . . . 
+. . . . . 
+
+X . . . . 
+. O X . . 
+. . O . . 
+. . . . . 
+. . . . . 
+Your move, row then column (1 to 5): 
+
+X . . . . 
+. O X . . 
+. . O . . 
+. . . O . 
+. . . . . 
+
+X . . X . 
+. O X . . 
+. . O . . 
+. . . O . 
+. . . . . 
+Your move, row then column (1 to 5): 
+Invalid move! Try again: 
+
+X . . X . 
+. O X . . 
+. . O . . 
+. . . O . 
+. . . . O 
+
+X . . X X 
+. O X . . 
+. . O . . 
+. . . O . 
+. . . . O 
+Your move, row then column (1 to 5): 
+
+X . . X X 
+. O X O . 
+. . O . . 
+. . . O . 
+. . . . O 
+
+X X . X X 
+. O X O . 
+. . O . . 
+. . . O . 
+. . . . O 
+Your move, row then column (1 to 5): 
+
+X X . X X 
+. O X O . 
+. . O . . 
+. O . O . 
+. . . . O 
+
+X X X X X 
+. O X O . 
+. . O . . 
+. O . O . 
+. . . . O 
+Sorry, you lost!
+
+Play again? Y or N
+Bye!
