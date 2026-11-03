@@ -1,3 +1,5 @@
+<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
+
 # World cities app
 
 Two Java programs about populations: one simulates a country of 100 million people over 12 random cities for five years, the other loads 4,000 real cities and lists the 10 largest, the 10 smallest, every city in a country, or the 10 nearest to a point using the haversine formula. The city data is the free basic dataset from simplemaps.com, used under their CC BY 4.0 licence. Language: Java.
@@ -19,4 +21,6 @@ Reading located at 51.4542 latitude -0.9731 longitude in United Kingdom with a p
 
 The full session, including the 10 largest cities, is in `sample-run.txt`.
 
-The full source code is kept in a private repository. To review it, [email me](mailto:mkhodir77@gmail.com?subject=Code%20access%3A%20other-projects) with your name, company and GitHub username, and I will give you read access.
+The source code is private. Selected parts are available to employers for technical review. Contact me at [mkhodir77@gmail.com](mailto:mkhodir77@gmail.com).
+
+Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.

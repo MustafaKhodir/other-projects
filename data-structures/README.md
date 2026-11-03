@@ -1,3 +1,5 @@
+<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
+
 # Data structures: prime minister tree
 
 A binary search tree of every UK prime minister keyed on days in office, where each node counts the nodes below it so "who is the nth shortest serving" is answered by walking a single path. It also deletes nodes with zero, one or two children and does an in order walk with an explicit stack. We were given a sample data file of prime ministers to build from. I wrote the tree and all the code around it. Language: Java.
@@ -34,4 +36,6 @@ The 40th shortest serving prime minister is: { PM: Harold Macmillan, Days: 2471,
 The 50th shortest serving prime minister is: { PM: Henry Pelham, Days: 3841, nodes below: 41 }
 ```
 
-The full source code is kept in a private repository. To review it, [email me](mailto:mkhodir77@gmail.com?subject=Code%20access%3A%20other-projects) with your name, company and GitHub username, and I will give you read access.
+The source code is private. Selected parts are available to employers for technical review. Contact me at [mkhodir77@gmail.com](mailto:mkhodir77@gmail.com).
+
+Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.
