@@ -1,5 +1,3 @@
-<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
-
 # Polygon drawing app
 
 A Swing desktop app for drawing regular polygons: give each one an ID, a number of sides, a side length, a centre and a colour, or click the canvas to drop one there, then search by ID, sort, clear and redraw. The corners are worked out from the side length using the radius of the circle through them. Language: Java.

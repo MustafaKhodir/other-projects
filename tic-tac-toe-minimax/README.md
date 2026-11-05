@@ -1,5 +1,3 @@
-<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
-
 # Tic Tac Toe with minimax
 
 Five in a row on a 5 by 5 board against the computer in the terminal, using minimax with alpha beta pruning, a 6 move depth limit, and a heuristic that scores open lines when the search stops early. We were given a basic 3 by 3 example to build from. I wrote the 5 by 5 game, the minimax AI with alpha beta pruning, the depth limit and the heuristic. Language: Java.

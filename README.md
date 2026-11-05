@@ -1,5 +1,3 @@
-<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
-
 # Other Projects
 
 Smaller things I built while learning MATLAB, Java and C, kept in one place so they do not clutter the main repos. Each folder has its own short README.

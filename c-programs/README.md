@@ -1,5 +1,3 @@
-<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
-
 # C programs
 
 Five small C programs: merging two sorted arrays and filling a 3 by 5 matrix, a struct based student grade calculator, a four function calculator with a divide by zero check, a mad libs game, and a few functions. Language: C.
