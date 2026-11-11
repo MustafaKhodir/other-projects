@@ -23,7 +23,8 @@ class AIplayer {
     // Nothing to set up, the scores list is made fresh for every search
     public AIplayer() { throw new UnsupportedOperationException("removed"); }
 
-    // picks the move with the highest score, random if there is nothing to go on
+    // Picks the move with the highest score. If no move was picked it falls
+    // back to a random square.
     public Point returnBestMove() { throw new UnsupportedOperationException("removed"); }
 
     // Any square on the board, picked at random
@@ -35,10 +36,10 @@ class AIplayer {
     // Largest score in the list, the best result for X
     public int returnMax(List<Integer> list) { throw new UnsupportedOperationException("removed"); }
 
-    // starts a fresh search from the current board
+    // Starts a fresh search from the current board
     public void callMinimax(int depth, int turn, Board b) { throw new UnsupportedOperationException("removed"); }
 
-    // turn 1 is the AI (X), turn 2 is the person (O). depth 0 is the real board.
+    // Turn 1 is the AI (X) and turn 2 is the person (O). Depth 0 is the real board.
     // Tries every free square in turn, scores the board that follows, then
     // undoes the move. X keeps the highest score and O keeps the lowest.
     // alpha is the best score X is already sure of, beta the best for O.

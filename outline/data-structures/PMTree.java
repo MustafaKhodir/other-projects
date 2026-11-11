@@ -38,7 +38,7 @@ public class PMTree {
         // The name stored for this tenure
         String getName() { throw new UnsupportedOperationException("removed"); }
 
-        // handy when deleting, a node with 0 or 1 children is the easy case
+        // How many children this node has. When deleting, 0 or 1 is the easy case.
         int numChildren() { throw new UnsupportedOperationException("removed"); }
 
         // How a node is printed, for example { PM: Liz Truss, Days: 49, nodes below: 0 }
@@ -49,7 +49,7 @@ public class PMTree {
     // True if someone in the tree served exactly this many days
     public boolean contains(int days) { throw new UnsupportedOperationException("removed"); }
 
-    // name of whoever served exactly this many days, or null if nobody did
+    // Name of whoever served exactly this many days, or null if nobody did
     public String getName(int days) { throw new UnsupportedOperationException("removed"); }
 
     // Standard binary search: go left for fewer days, right for more,
@@ -64,12 +64,12 @@ public class PMTree {
     // If the days are already in the tree only the name is replaced.
     public void insert(int days, String name) { throw new UnsupportedOperationException("removed"); }
 
-    // Delete a node. With 0 or 1 children it is a simple unlink. With 2
-    // children, copy in the smallest value from the right subtree and
-    // delete that node instead (it can only have a right child).
+    // Deletes a node. With 0 or 1 children it is a simple unlink. With 2
+    // children, it copies in the smallest value from the right subtree and
+    // deletes that node instead (it can only have a right child).
     public void delete(int days) { throw new UnsupportedOperationException("removed"); }
 
-    // unlink a node that has at most one child
+    // Unlinks a node that has at most one child
     private void simpleDelete(Node node) { throw new UnsupportedOperationException("removed"); }
 
     // The shortest tenure under this node is as far left as you can go
@@ -83,7 +83,7 @@ public class PMTree {
     // the list is printed from the nth shortest down to the shortest.
     public void showAllNShortest(int n) { throw new UnsupportedOperationException("removed"); }
 
-    // in order traversal with an explicit stack, stops after n nodes
+    // In order traversal using an explicit stack, stopping after n nodes
     private Stack<Node> getAllNShortest(int n) { throw new UnsupportedOperationException("removed"); }
 
     // Deletes the node for each tenure in the array, skipping any not in the tree
