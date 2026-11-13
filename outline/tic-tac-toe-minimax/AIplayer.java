@@ -16,9 +16,13 @@ import java.util.Random;
 // instead, and that can be much bigger than 1 either way. The AI is X, so
 // it picks the move with the highest score.
 class AIplayer {
-    List<Point> availablePoints;
     List<PointsAndScores> rootsChildrenScores;   // every possible move from the current board, with its score
     static final int MAX_DEPTH = 6;
+
+    // scores for a finished game
+    private static final int X_WIN_SCORE = 1;
+    private static final int O_WIN_SCORE = -1;
+    private static final int DRAW_SCORE = 0;
 
     // Nothing to set up, the scores list is made fresh for every search
     public AIplayer() { throw new UnsupportedOperationException("removed"); }
@@ -37,11 +41,11 @@ class AIplayer {
     public int returnMax(List<Integer> list) { throw new UnsupportedOperationException("removed"); }
 
     // Starts a fresh search from the current board
-    public void callMinimax(int depth, int turn, Board b) { throw new UnsupportedOperationException("removed"); }
+    public void callMinimax(int depth, int turn, Board board) { throw new UnsupportedOperationException("removed"); }
 
     // Turn 1 is the AI (X) and turn 2 is the person (O). Depth 0 is the real board.
     // Tries every free square in turn, scores the board that follows, then
     // undoes the move. X keeps the highest score and O keeps the lowest.
     // alpha is the best score X is already sure of, beta the best for O.
-    public int minimax(int depth, int turn, int alpha, int beta, Board b) { throw new UnsupportedOperationException("removed"); }
+    public int minimax(int depth, int turn, int alpha, int beta, Board board) { throw new UnsupportedOperationException("removed"); }
 }

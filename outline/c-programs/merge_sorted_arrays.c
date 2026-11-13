@@ -12,13 +12,22 @@
 #include <stdio.h>
 #include <string.h>
 
+#define ROWS 3
+#define COLS 5
+#define TOTAL (ROWS * COLS)
+
 // declared up here so main can call them before they are defined below
 int is_sorted(int x[], int n, char *mode);
 int merge(int *z, int *x, int *y, int n_x, int n_y);
+int read_number(int *number);
 
 // Fills the matrix from the keyboard, then merges row 1 with row 2 and the
 // result with row 3, and prints the merged array
 int main(void) { /* removed */ }
+
+// Reads one whole number into number. Returns 1 if it worked, or prints a
+// message and returns 0 if what was typed is not a number.
+int read_number(int *number) { /* removed */ }
 
 // Returns 1 if x is sorted in the given mode ("increasing" or "decreasing"),
 // 0 if it is not, and -1 if the mode is not one of those two

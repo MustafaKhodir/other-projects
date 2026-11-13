@@ -26,8 +26,8 @@ public class PMTree {
         Node parent;
         Node left, right;
         int days;
-        String name;      // who the tenure belongs to
-        int nbOfNodes;    // how many nodes are below this one
+        String name;       // who the tenure belongs to
+        int nodesBelow;    // how many nodes are below this one
 
         // A new node is always a leaf, so it starts with nothing below it
         Node(Node parent, int days, String name) { throw new UnsupportedOperationException("removed"); }
@@ -57,7 +57,7 @@ public class PMTree {
     private Node getNode(int days) { throw new UnsupportedOperationException("removed"); }
 
     // Inserts every entry in the order the list gives them
-    private void insertAll(List<PMList.Entry> pmlist) { throw new UnsupportedOperationException("removed"); }
+    private void insertAll(List<PMList.Entry> entries) { throw new UnsupportedOperationException("removed"); }
 
     // Walks down from the root to the empty spot where these days belong and
     // adds a new leaf there, adding one to the count of every node on the way.
