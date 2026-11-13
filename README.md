@@ -54,7 +54,7 @@ Real runs of my Java and C programs, recorded straight from the code. MATLAB was
 
 All of them back to back with captions:
 
-https://github.com/user-attachments/assets/deda16aa-9237-4230-8fa7-1ae5220c044c
+https://github.com/user-attachments/assets/ae48581e-f417-49ac-9cf1-4e0a04a092db
 
 The same video is in the repo as [other-projects-tour.mp4](media/demo/other-projects-tour.mp4) (82 s).
 
