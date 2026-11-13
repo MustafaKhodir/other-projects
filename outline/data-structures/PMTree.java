@@ -61,7 +61,8 @@ public class PMTree {
 
     // Walks down from the root to the empty spot where these days belong and
     // adds a new leaf there, adding one to the count of every node on the way.
-    // If the days are already in the tree only the name is replaced.
+    // If the days are already in the tree only the name is replaced, and no
+    // counts change, since no node is added.
     public void insert(int days, String name) { throw new UnsupportedOperationException("removed"); }
 
     // Deletes a node. With 0 or 1 children it is a simple unlink. With 2
