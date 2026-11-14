@@ -5,6 +5,7 @@ Smaller things I built while learning MATLAB, Java and C, kept in one place so t
 - [matlab-maths](matlab-maths) symbolic maths, circuit voltages, Fourier series and plots. MATLAB.
 - [control-theory-matlab](control-theory-matlab) state space, pole zero maps, step responses and a root locus. MATLAB.
 - [data-structures](data-structures) a binary search tree of UK prime ministers with order statistics and deletion. Java.
+- [minimum-spanning-tree](minimum-spanning-tree) a minimum spanning tree built by swapping edges into a breadth first tree, checked against Prim's algorithm. Java.
 - [tic-tac-toe-minimax](tic-tac-toe-minimax) five in a row on a 5 by 5 board against a minimax player with alpha beta pruning. Java.
 - [polygon-drawing-app](polygon-drawing-app) a Swing app for drawing, sorting and searching regular polygons. Java.
 - [world-cities-app](world-cities-app) a population simulation and a search over 4,000 real cities. Java.
@@ -31,6 +32,10 @@ Real runs of my Java and C programs, recorded straight from the code. MATLAB was
 **Tic Tac Toe with minimax.** A game against the alpha beta minimax player, which wins with five in a row along the top.
 
 ![Terminal game of five in a row against the minimax player](media/demo/tic-tac-toe-minimax.gif)
+
+**Minimum spanning tree.** A breadth first spanning tree on 50 random points being improved one swap at a time until it matches Prim's algorithm.
+
+![Minimum spanning tree being built by edge swaps](media/demo/minimum-spanning-tree.gif)
 
 **Prime minister tree.** The binary search tree finding the nth shortest tenure and listing the shortest serving prime ministers.
 
