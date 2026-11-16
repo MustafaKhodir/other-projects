@@ -51,7 +51,7 @@ Real runs of my Java and C programs, recorded straight from the code. MATLAB was
 
 ![Binary search tree of UK prime ministers answering order statistic queries](media/demo/data-structures.gif)
 
-**World cities search.** The 10 largest cities, every city in the United Kingdom, and the 10 cities nearest Bristol.
+**World cities search.** The 10 largest cities, every city in the United Kingdom, and the 10 cities nearest London.
 
 ![World cities app searching 4,000 real cities](media/demo/world-cities-app.gif)
 
