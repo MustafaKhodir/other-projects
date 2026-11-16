@@ -7,6 +7,7 @@ Smaller things I built while learning MATLAB, Java, C and Python, kept in one pl
 - [data-structures](data-structures) a binary search tree of UK prime ministers with order statistics and deletion. Java.
 - [minimum-spanning-tree](minimum-spanning-tree) a minimum spanning tree built by swapping edges into a breadth first tree, checked against Prim's algorithm. Java.
 - [biscuit-inspection](biscuit-inspection) a camera check that sorts biscuit photos into round, rectangular or reject, with fail safe rules for overlapped and stacked biscuits. Python and OpenCV.
+- [car-counter](car-counter) counts vehicles crossing a line on real Transport for London road cameras, split by direction and tested against my own hand count. Python and OpenCV.
 - [tic-tac-toe-minimax](tic-tac-toe-minimax) five in a row on a 5 by 5 board against a minimax player with alpha beta pruning. Java.
 - [polygon-drawing-app](polygon-drawing-app) a Swing app for drawing, sorting and searching regular polygons. Java.
 - [world-cities-app](world-cities-app) a population simulation and a search over 4,000 real cities. Java.
@@ -37,6 +38,10 @@ Real runs of my Java and C programs, recorded straight from the code. MATLAB was
 **Biscuit inspection.** The OpenCV checker running through the test photos with a live count of unsafe passes.
 
 ![Biscuit inspection running on the test photos](media/demo/biscuit-inspection.gif)
+
+**Car counter.** The counter tracking vehicles on London road cameras and counting each one as it crosses the yellow line. Footage: TfL JamCams. Powered by TfL Open Data.
+
+![Car counter running on TfL road camera clips](media/demo/car-counter.gif)
 
 **Minimum spanning tree.** A breadth first spanning tree on 50 random points being improved one swap at a time until it matches Prim's algorithm.
 
