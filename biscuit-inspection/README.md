@@ -15,7 +15,7 @@ On the 211 labelled test photos it gets **207 right (98%)** and **passes no bad 
 | Good photo rejected (safe, costs a biscuit) | 2 |
 | Label file errors, where the program is right | 2 |
 
-The thresholds were set by looking at the photos, so I also tested it fairly. Every threshold was chosen on the odd numbered photos and scored on the even ones, then the other way round. On photos the thresholds had never seen it got 107 of 109 and 102 of 108, about 96%, with one bad photo passed. That one is explained below.
+The thresholds were set by looking at the photos, so I also tested it fairly. The held out test used all 217 labelled photos: the 211 test photos plus the 6 training photos. Every threshold was chosen on the odd numbered photos and scored on the even ones, then the other way round. On photos the thresholds had never seen it got 107 of 109 and 102 of 108, about 96%, with one bad photo passed. That one is explained below.
 
 ## How it works
 
