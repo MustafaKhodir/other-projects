@@ -7,7 +7,7 @@ Smaller things I built while learning MATLAB, Java, C and Python, kept in one pl
 - [Data structures](data-structures): A binary search tree of UK prime ministers with order statistics and deletion. Java.
 - [Minimum spanning tree](minimum-spanning-tree): Built by swapping edges into a breadth first tree, then checked against Prim's algorithm. Java.
 - [Biscuit inspection](biscuit-inspection): A camera check that sorts biscuit photos into round, rectangular or reject, with fail safe rules for overlapped and stacked biscuits. Python and OpenCV.
-- [Car counter](car-counter): Counts vehicles crossing a line on real Transport for London road cameras, split by direction and tested against my own hand count. Python and OpenCV.
+- [Car counter](https://github.com/MustafaKhodir/car-counter): Counts vehicles crossing a line on real Transport for London road cameras, split by direction and tested against my own hand count. Python and OpenCV.
 - [Five in a row with minimax](tic-tac-toe-minimax): Five in a row on a 5 by 5 board against a minimax player with alpha beta pruning. Java.
 - [Polygon drawing app](polygon-drawing-app): A Swing app for drawing, sorting and searching regular polygons. Java.
 - [World cities app](world-cities-app): A population simulation and a search over 4,000 real cities. Java.
