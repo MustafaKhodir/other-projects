@@ -39,10 +39,6 @@ Real runs of my Java and C programs, recorded straight from the code. MATLAB was
 
 ![Biscuit inspection running on the test photos](media/demo/biscuit-inspection.gif)
 
-**Car counter.** The counter tracking vehicles on London road cameras and counting each one as it crosses the yellow line. Footage: TfL JamCams. Powered by TfL Open Data.
-
-![Car counter running on TfL road camera clips](media/demo/car-counter.gif)
-
 **Minimum spanning tree.** A breadth first spanning tree on 50 random points being improved one swap at a time until it matches Prim's algorithm.
 
 ![Minimum spanning tree being built by edge swaps](media/demo/minimum-spanning-tree.gif)
