@@ -62,8 +62,6 @@ The full 59 second run is [biscuit-inspection.mp4](../media/demo/biscuit-inspect
 - [outline/biscuit-inspection/bikky.py](../outline/biscuit-inspection/bikky.py) the program with its structure, comments and function names. The working logic is in the private repository.
 - the demo video and GIF in [media/demo](../media/demo), and the two stills in this folder.
 
-The photos and the task file belong to the University of Essex computer vision module and are not included.
-
 ## Skills
 
 OpenCV, colour spaces, Otsu thresholding, morphology, contour analysis, convexity defects, distance transform and watershed, fail safe design, honest evaluation with a held out split, Python.
